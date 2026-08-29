@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "0.3.0"
+  version: "0.3.1"
 
 package:
   name: pytensor-distributions
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytensor-distributions/pytensor_distributions-${{ version }}.tar.gz
-  sha256: 6817696dc48e124802fc7bf4edb42b6ecd33dc80f67e2a4923f92d6242317417
+  sha256: de8f02f7a25e3d6945447e14022358ec794c12fc1dadc87d3f5bb255993a77b3
 
 build:
   number: 0
